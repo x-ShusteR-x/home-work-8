@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>שיעורי בית 2-js + מחשבון המרה</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>וקקה קי וקי קי קה ופונקציות ובלגנים</h1>
+
+
+
+
+
+
+
+
+<ul>
+    <li>
+        <label for="numA">מספר ראשון:</label>
+        <input  id="numA" name="numA">
+        <label for="numB">מספר שני:</label>
+        <input  id="numB" name="numB">
+        <button onclick="printMin()">מצא את הקטן</button>
+        <div id="out1"></div>
+    </li>
+    <li>
+       <label>4 מחרוזות לבדיקה (יותר מ-3 תווים):</label><br>
+  <input type="text" id="str1" maxlength="20" size="10">
+  <input type="text" id="str2" maxlength="20" size="10">
+  <input type="text" id="str3" maxlength="20" size="10">
+  <input type="text" id="str4" maxlength="20" size="10">
+  <button onclick="printCountGreaterThanThree()">כמה מהם מעל 3 ספרות</button>
+  <div id="out2"></div>
+    </li>
+    <li>
+        <label for="input3">בדוק A</label>
+        <input type="text" id="input3" name="input3">
+        <button onclick="checkA()">בדוק תו A</button>
+        <div id="out3"></div>
+    </li>
+    <li>
+      <label for="inputParity">הכנס מספר:</label>
+<input  id="inputParity">
+<button onclick="checkParity()">בדוק זוגיות</button>
+<div id="parityResult"></div>
+    </li>
+    <li>
+<label for="input5">מחרוזת:</label>
+<input type="text" id="input5">
+<button onclick="compareFirstLast()">השוואה בין אות ראשונה לאחרונה</button>
+<div id="out5"></div>
+    </li>
+    <li>
+    <label for="input6">מחרוזת לבדיקה:</label>
+<input type="text" id="input6">
+<button onclick="specialString()">בדוק</button>
+<div id="out6"></div>
+    </li>
+</ul>
+<hr>
+<div class="converter-table">
+  <div class="row">
+    <div class="cell">
+      <label for="currencyType" class="lbl">סוג המטבע</label>
+      <input id="currencyType" name="currencyType" type="text" class="input-field">
+    </div>
+    <div class="cell">
+      <label for="amountNIS" class="lbl">כמות השקלים</label>
+      <input id="amountNIS" name="amountNIS" class="input-field">
+    </div>
+  </div>
+  <div class="row">
+    <div class="cell" style="vertical-align: top;">
+      <button class="convert-btn" onclick="convertCurrency()">בצע</button>
+    </div>
+    <div class="cell types-list">
+      סוגי מטבעות:<br>
+      * יורו 4.2<br>
+      * דולר 3.9<br>
+      * לירה סטרלינג 5.0 *
+    </div>
+ 
+
+
+<script src="script.js"></script>
+</body>
+</html>
